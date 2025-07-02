@@ -1,0 +1,67 @@
+.card {
+  width: 100%;
+  display: flex;
+  margin: 0.5rem;
+  max-width: 27rem;
+  border-radius: 8px;  
+  align-items: center;
+  background: #cab4b4;
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.avatar {
+  width: 8rem;
+  height: 8rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.info {
+  gap: 0.25rem;
+  flex-grow: 1;
+  display: flex;
+  padding: 0.75rem 1rem;
+  flex-direction: column;
+}
+
+.name {
+  margin: 0;
+  color: #333;
+  font-size: 1.25rem;
+}
+
+.type,
+.species,
+.origin,
+.location {
+  margin: 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.status {
+  display: flex;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0;
+  align-items: center;
+}
+
+.status-dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+.status-dot.alive {
+  background-color: #4caf50;
+}
+
+.status-dot.dead {
+  background-color: #f44336;
+}
