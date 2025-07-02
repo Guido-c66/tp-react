@@ -1,0 +1,16 @@
+.characters-page {
+  padding: 1rem;
+}
+.search-input {
+  width: 100%;
+  padding: 0.5rem;
+  max-width: 19rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+.cards-container {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
