@@ -1,0 +1,40 @@
+.landing {
+  color: #fff;
+  padding: 3rem 1rem;
+  background: #1f1f1f;
+}
+
+.container {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  margin: 0.5rem;
+  max-width: 27rem;
+  border-radius: 8px;  
+  align-items: center;
+  border: 1px solid #ddd;
+  background: #cab4b4;
+  transition: transform 0.2s ease;
+}
+
+
+.opinion {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.email {
+  font-weight: 400;
+  color: #777474;
+}
