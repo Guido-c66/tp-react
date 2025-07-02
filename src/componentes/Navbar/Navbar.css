@@ -1,0 +1,15 @@
+.nav-bar  {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  list-style: none;
+  background: #333;
+  justify-content: space-around;
+}
+.nav-bar a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-bar a.active {
+   font-weight: bold;
+}
